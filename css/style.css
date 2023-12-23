@@ -3110,9 +3110,12 @@ figure.highlight .shrink-line:hover::before {
   }
 }
 .first-screen-container .first-screen-content .bottom-placeholder {
-  width: 100%;
+  width: auto;
 }
 .first-screen-container .first-screen-content .bottom-placeholder .sc-icon-list {
+  background: rgba(220,220,220,0.3);
+  padding: 4px 5px 4px 5px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
 }
