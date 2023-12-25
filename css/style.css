@@ -2164,8 +2164,9 @@ figure.highlight .shrink-line:hover::before {
 .post-toc-wrap {
   width: 100%;
   height: 100%;
+  font-weight: bold;
   overflow-y: auto;
-  font-size: 0.92rem;
+  font-size: 1.2rem;
 }
 .post-toc-wrap::-webkit-scrollbar-thumb {
   background: var(--toc-scrollbar-color);
@@ -2438,6 +2439,7 @@ figure.highlight .shrink-line:hover::before {
 }
 .header-wrapper .header-content .right .pc .menu-list .menu-item {
   position: relative;
+  font-weight: bold;
   float: left;
   box-sizing: border-box;
   margin-left: 2rem;
